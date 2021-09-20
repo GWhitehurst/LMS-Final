@@ -22,7 +22,7 @@ public class BookAuthorsDAO extends BaseDAO<BookAuthors> {
     }
 
     public List<BookAuthors> readAllBookAuthors() throws SQLException, ClassNotFoundException {
-        return read("SELECT * FROM tbl_publisher", null);
+        return read("SELECT * FROM tbl_book_author", null);
     }
 
     @Override
